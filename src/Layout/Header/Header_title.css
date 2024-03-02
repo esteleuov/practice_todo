@@ -1,0 +1,15 @@
+* {
+    margin: 0;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-bottom: 8px;
+    padding-top: 26px;
+}
+
+h1 {
+    font-size: 48px;
+}

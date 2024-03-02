@@ -1,0 +1,56 @@
+.Parts {
+    display: flex;
+    flex-direction: row;
+    gap: 18px;
+    width: 90%;
+}
+
+h2 {
+    font-size: 24px;
+    color: rgb(165, 42, 42);
+}
+
+.all {
+    border: 2px solid rgba(165, 42, 42, 0);   
+    height: 48px;
+    border-radius: 62%;
+    width: 153px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.done {
+    border: 2px solid rgba(0, 0, 0, 0);
+    height: 48px;
+    border-radius: 62%;
+    width: 153px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.done:hover, .not_done:hover, .removed:hover, .all:hover {
+    border: 2px solid rgb(165, 42, 42);
+    cursor: pointer;
+}
+
+.not_done {
+    border: 2px solid rgba(0, 0, 0, 0);
+    height: 48px;
+    border-radius: 62%;
+    width: 153px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.removed {
+    border: 2px solid rgba(0, 0, 0, 0);
+    height: 48px;
+    border-radius: 62%;
+    width: 153px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

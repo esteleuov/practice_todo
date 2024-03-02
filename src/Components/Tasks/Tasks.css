@@ -1,0 +1,72 @@
+.tasks {
+    width: 65%;
+    height: 510px;
+}
+
+.task_lists {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.task_lists p {
+    font-size: 28px;
+}
+
+.task {
+    display: flex;
+    height: 25px;
+    align-items: center;
+    gap: 12px;
+}
+
+.list {
+    display: flex;
+    flex-direction: column;
+    gap: 36px;
+}
+
+.task:hover {
+    cursor: pointer;
+}
+
+.task:hover #remove_btn {
+    display: block;    
+}
+.task:hover #did_btn {
+    display: block;    
+}
+
+#remove_btn {
+    display: none;
+    background-image: url('delete_icon.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    width: 25px;
+}
+
+#remove_btn:hover {
+    cursor: pointer;
+}
+
+#did_btn {
+    display: none;
+    background-image: url('ok_icon.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    width: 25px;
+}
+
+#did_btn:hover {
+    cursor: pointer;
+}
+
+#add_task_btn {
+    color: blue;
+}
+
+#add_task_btn:hover {
+    cursor: pointer;
+}
