@@ -16,6 +16,7 @@ function FilterTasks() {
     dispatch(completeTask(title));
   };
  
+  
   useEffect(() => {
     if (filterTask === 'all') {
       setList(task)
